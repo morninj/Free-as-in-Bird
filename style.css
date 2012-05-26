@@ -11,3 +11,7 @@ License: CC BY 3.0
 License URI: https://creativecommons.org/licenses/by/3.0/us/
 */
 
+/* Import Bootstrap */
+@import url('styles/bootstrap.css');
+@import url('styles/bootstrap-responsive.css');
+
