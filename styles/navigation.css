@@ -1,0 +1,22 @@
+nav#main-nav {}
+
+    nav#main-nav ul {
+        border-bottom: 1px solid #efefef;
+        border-top: 1px solid #efefef;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        nav#main-nav ul li {
+            display: inline;
+        }
+
+            nav#main-nav ul li a {
+                display: inline-block;
+                font-weight: 400;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                padding: 6px 40px;
+            }
