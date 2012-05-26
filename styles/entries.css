@@ -1,0 +1,27 @@
+article.entry {
+    margin-bottom: 20px;
+}
+
+div.entry-meta {
+    color: #777;
+}
+
+    div.entry-meta h3 {
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-top: 25px;
+        text-transform: uppercase;
+    }
+
+    div.entry-meta p.entry-author {
+        margin-bottom: 0;
+    }
+
+h2.entry-title {
+    border-bottom: 2px dotted #efefef;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding: 10px 0 5px 0;
+}

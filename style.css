@@ -21,6 +21,9 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 /* Navigation */
 @import url('styles/navigation.css');
 
+/* Entries */
+@import url('styles/entries.css');
+
 body {
     font-weight: 300;
 }
