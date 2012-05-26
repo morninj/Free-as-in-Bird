@@ -12,7 +12,12 @@ Installation
 Bootstrap
 ---------
 
-This theme uses Twitter Bootstrap for base styles and responsiveness. The LESS files live in bootstrap/less/. After editing these files, compile them to styles/[filename].css--for instance:
+This theme uses [Twitter Bootstrap](http://twitter.github.com/bootstrap/) for base styles and responsiveness. The LESS files live in bootstrap/less/. After editing these files, compile them to styles/[filename].css--for instance:
 
     $ lessc bootstrap/less/bootstrap.less styles/bootstrap.css
     $ lessc bootstrap/less/responsive.less styles/bootstrap-responsive.css
+
+License
+-------
+
+This theme is licensed under the [Creative Commons Attribution 3.0 United States (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/us/) license.
