@@ -3,20 +3,32 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+
+    <!-- Typekit -->
+    <script type="text/javascript" src="http://use.typekit.com/amo3qgn.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- Stylesheets -->
     <link href="<?php bloginfo('stylesheet_directory'); ?>/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Fix HTML5 elements for noncompliant browsers -->
     <!--[if lt IE 9]>  
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
     <![endif]--> 
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="span8">
-                <header>
+        <header>
+            <div class="row">
+                <div class="span2">
+                    <div id="header-logo" style="width: 32px; height: 32px; background-color: #efefef;"></div>
+                    <!-- TODO: add avatar; align to right bottom -->
+                </div><!--/.span2-->
+                <div class="span6">
                     <h1>Site title</h1>
-                </header>
-            </div><!--/.span8-->
-        </div><!--/.row-->
+                </div><!--/.span6-->
+            </div><!--/.row-->
+        </header>
         <div class="row">
             <div class="span8">
                 <nav>
