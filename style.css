@@ -15,9 +15,15 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 @import url('styles/bootstrap.css');
 @import url('styles/bootstrap-responsive.css');
 
+/* Header */
+@import url('styles/header.css');
+
 /* Navigation */
 @import url('styles/navigation.css');
 
 body {
     font-weight: 300;
 }
+
+
+div.clear-both { clear: both; }

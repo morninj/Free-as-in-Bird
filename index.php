@@ -20,12 +20,12 @@
     <div class="container">
         <header>
             <div class="row">
-                <div class="span2">
-                    <div id="header-logo" style="width: 32px; height: 32px; background-color: #efefef;"></div>
-                    <!-- TODO: add avatar; align to right bottom -->
+                <div class="span2" id="header-logo-container">
+                    <a href="<?php echo( site_url() ); ?>"><img src="http://i.imgur.com/TgRuA.png" width="32" height="32" alt="Lessig" id="header-logo" /></a>
+                    <div class="clear-both"></div>
                 </div><!--/.span2-->
                 <div class="span6">
-                    <h1>Site title</h1>
+                    <h1><a href="<?php echo( site_url() ); ?>"><?php echo( get_bloginfo( 'name' ) ); ?></a></h1>
                 </div><!--/.span6-->
             </div><!--/.row-->
         </header>
