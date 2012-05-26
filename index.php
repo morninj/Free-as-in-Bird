@@ -29,19 +29,19 @@
                 </div><!--/.span6-->
             </div><!--/.row-->
         </header>
-        <div class="row">
-            <div class="span8">
-                <nav>
+        <nav id="main-nav">
+            <div class="row">
+                <div class="span8">
                     <ul>
-                        <li><a href="javascript:void(0);">Page One</a></li>
-                        <li><a href="javascript:void(0);">Page Two</a></li>
-                        <li><a href="javascript:void(0);">Page Three</a></li>
-                        <li><a href="javascript:void(0);">Page Four</a></li>
-                        <li><a href="javascript:void(0);">Page Five</a></li>
+                        <li><a href="javascript:void(0);">Blog</a></li>
+                        <li><a href="javascript:void(0);">Books</a></li>
+                        <li><a href="javascript:void(0);">News</a></li>
+                        <li><a href="javascript:void(0);">Wiki</a></li>
+                        <li><a href="javascript:void(0);">About</a></li>
                     </ul>
-                </nav>
-            </div><!--/.span8-->
-        </div><!--/.row-->
+                </div><!--/.span8-->
+            </div><!--/.row-->
+        </nav><!--/#main-nav-->
         <section>
             <article>
                 <div class="row">

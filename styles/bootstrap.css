@@ -131,7 +131,7 @@ textarea {
 body {
   margin: 0;
   font-family: "skolar", Georgia, "Times New Roman", Times, serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 23px;
   color: #333333;
   background-color: #ffffff;
@@ -301,11 +301,11 @@ a:hover {
 p {
   margin: 0 0 11.5px;
   font-family: "skolar", Georgia, "Times New Roman", Times, serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 23px;
 }
 p small {
-  font-size: 15px;
+  font-size: 14px;
   color: #999999;
 }
 .lead {
@@ -509,7 +509,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 16px;
+  font-size: 15px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -525,7 +525,7 @@ pre {
   display: block;
   padding: 11px;
   margin: 0 0 11.5px;
-  font-size: 15.725000000000001px;
+  font-size: 14.8px;
   line-height: 23px;
   word-break: break-all;
   word-wrap: break-word;
@@ -564,7 +564,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 34.5px;
-  font-size: 25.5px;
+  font-size: 24px;
   line-height: 46px;
   color: #333333;
   border: 0;
@@ -579,7 +579,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 23px;
 }
@@ -603,7 +603,7 @@ select,
   height: 23px;
   padding: 4px;
   margin-bottom: 9px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 23px;
   color: #555555;
   background-color: #ffffff;
@@ -2042,7 +2042,7 @@ button.close {
   *zoom: 1;
   padding: 4px 10px 4px;
   margin-bottom: 0;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 23px;
   *line-height: 20px;
   color: #333333;
@@ -2133,7 +2133,7 @@ button.close {
 }
 .btn-large {
   padding: 9px 14px;
-  font-size: 19px;
+  font-size: 18px;
   line-height: normal;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2144,7 +2144,7 @@ button.close {
 }
 .btn-small {
   padding: 5px 9px;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 21px;
 }
 .btn-small [class^="icon-"] {
@@ -2152,7 +2152,7 @@ button.close {
 }
 .btn-mini {
   padding: 2px 6px;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 19px;
 }
 .btn-primary,
@@ -3710,7 +3710,7 @@ a.thumbnail:hover {
 }
 .label,
 .badge {
-  font-size: 14.382px;
+  font-size: 13.536px;
   font-weight: bold;
   line-height: 14px;
   color: #ffffff;

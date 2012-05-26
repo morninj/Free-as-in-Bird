@@ -9,6 +9,11 @@ Installation
 * Clone this repository to wp-content/themes/Free-as-in-Bird/
 * In the WordPress dashboard, go to Settings > Themes and activate "Free as in Bird"
 
+Typography
+----------
+
+This theme is designed to work with the font [Skolar Web](https://typekit.com/fonts/skolar-web) from TypeKit. If you don't install Skolar, the default will be Georgia.
+
 Bootstrap
 ---------
 
