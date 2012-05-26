@@ -25,3 +25,10 @@ h2.entry-title {
     margin-bottom: 15px;
     padding: 10px 0 5px 0;
 }
+
+div.entry-contents p:first-child:first-letter {
+    float: left;
+    font-size: 89px;
+    line-height: 60px;
+    padding: 7px 8px 0 0;
+}
