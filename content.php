@@ -1,4 +1,4 @@
-            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <article id="entry <?php the_ID(); ?>" <?php post_class(); ?>>
 
                 <div class="row">
                     <div class="span8">
@@ -8,7 +8,7 @@
 
                 <div class="row">
 			<?php
-                        // display metadata for posts but not pages
+                        // Display metadata for posts but not pages
                         if ( 'post' == get_post_type() ) { ?>
                     <div class="span2 entry-meta">
                         <p class="entry-author">By <?php the_author_link(); ?></a></p>
@@ -43,13 +43,19 @@ if (count($category_list) == 0) {
                     ?></p>
                     </div><!--/.span2 entry-meta"-->
                     <div class="span6 entry-contents">
-			<?php the_content(); ?>
+			<?php
+                            // Display post content
+                            the_content();
+                            ?>
                     </div><!--/.span6 .entry-contents-->
                     <?php } else { ?>
                     <div class="span8 entry-contents">
-			<?php the_content(); ?>
+			<?php
+                            // Display page content
+                            the_content();
+                        ?>
                     </div><!--/.span8 .entry-contents-->
                     <?php } ?>
                 </div><!--/.row-->
 
-            </article><!--/#post-<?php the_ID(); ?>-->
+            </article><!--/#entry-<?php the_ID(); ?>-->
