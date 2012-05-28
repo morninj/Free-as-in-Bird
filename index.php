@@ -7,7 +7,6 @@ if ( have_posts() ) :
         get_template_part( 'content', get_post_format() );
     endwhile;
 ?>
-<hr />
 <div class="pagination">
     <div class="alignleft"><?php next_posts_link('&laquo; Older posts') ?></div>
     <div class="alignright"><?php previous_posts_link('Newer posts &raquo;') ?></div>

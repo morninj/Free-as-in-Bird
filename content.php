@@ -7,8 +7,10 @@
                 </div><!--/.row-->
 
                 <div class="row">
+			<?php
+                        // display metadata for posts but not pages
+                        if ( 'post' == get_post_type() ) { ?>
                     <div class="span2 entry-meta">
-			<?php /* TODO: if ( 'post' == get_post_type() ) : */ ?>
                         <p class="entry-author">By <?php the_author_link(); ?></a></p>
                         <p class="entry-date"><?php the_time('F j, Y'); ?></p>
                         <p class="entry-comments"><?php 
@@ -38,11 +40,16 @@ if (count($category_list) == 0) {
 } else {
     the_category(', ');
 }
-                        ?></p>
+                    ?></p>
                     </div><!--/.span2 entry-meta"-->
                     <div class="span6 entry-contents">
 			<?php the_content(); ?>
                     </div><!--/.span6 .entry-contents-->
+                    <?php } else { ?>
+                    <div class="span8 entry-contents">
+			<?php the_content(); ?>
+                    </div><!--/.span8 .entry-contents-->
+                    <?php } ?>
                 </div><!--/.row-->
 
             </article><!--/#post-<?php the_ID(); ?>-->
