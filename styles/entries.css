@@ -3,7 +3,7 @@ article.entry {
 }
 
 div.entry-meta {
-    color: #777;
+    color: #999;
 }
 
     div.entry-meta h3 {
@@ -26,9 +26,15 @@ h2.entry-title {
     padding: 10px 0 5px 0;
 }
 
-div.entry-contents p:first-child:first-letter {
-    float: left;
-    font-size: 89px;
-    line-height: 60px;
-    padding: 7px 8px 0 0;
+h2.entry-title a,
+h2.entry-title a:active,
+h2.entry-title a:visited,
+h2.entry-title a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+div.pagination a {
+    border: 1px solid #efefef;
+    margin-right: 20px;
 }
