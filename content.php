@@ -25,11 +25,11 @@ echo( '<a href="' . get_comments_link() .'">'. $comments.'</a>' );
                         ?></p>
                         <h3>Tagged:</h3>
                         <p><?php
-$tag_list = get_the_tag_list();
-if (count($tag_list) == 0) {
+$tag_list = get_the_tag_list('', ', ', '');
+if ($tag_list == '') {
     ?><em>no tags</em><?php
 } else {
-    the_tags('', ', ');
+    echo($tag_list);
 }
                         ?></p>
                         <h3>Categorized:</h3>
