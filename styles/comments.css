@@ -1,0 +1,59 @@
+div#comments {
+    margin-top: 30px;
+}
+
+ol.comments-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    ol.comments-list li {
+        border-bottom: 1px solid #efefef;
+        padding: 20px 0;
+    }
+
+        ol.comments-list li div.comment-meta {
+            font-size: 0.7em;
+            letter-spacing: 1px;
+            margin: 15px 0;
+            text-transform: uppercase;
+        }
+
+    ol.comments-list ul.children {
+        border-left: 5px solid #efefef;
+        list-style: none;
+        margin-left: 50px;
+        padding: 0 0 0 15px;
+    }
+
+        ol.comments-list ul.children li {
+            border: none;
+            margin: 15px 0;
+            padding: 0;
+        }
+
+div#respond {
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+    div#respond span.required {
+        color: #f00;
+        padding-right: 10px;
+    }
+
+    div#respond textarea {
+        width: 100%;
+    }
+
+    div#respond code {
+        display: block;
+        margin: 15px 0;
+    }
+
+    div#respond input#submit {
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+    }

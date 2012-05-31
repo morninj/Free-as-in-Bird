@@ -24,9 +24,17 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 /* Entries */
 @import url('styles/entries.css');
 
+/* Comments */
+@import url('styles/comments.css');
+
 body {
     font-weight: 300;
-}
+}/* TODO: add documentation about typekit:
+
+1. this css chunk
+2. typekit header html
+3. LESS variables to adjust if not using typekit
+*/
 
 
 div.clear-both { clear: both; }

@@ -69,13 +69,14 @@
 
     <!-- Additional WordPress header output -->
     <?php wp_head(); ?>
+
 </head>
 <body <?php body_class(); ?>>
     <div class="container">
         <header>
             <div class="row">
                 <div class="span2" id="header-logo-container">
-                    <a href="<?php echo( site_url() ); ?>"><img src="http://i.imgur.com/TgRuA.png" width="32" height="32" alt="Lessig" id="header-logo" /></a>
+                    <a href="<?php echo( site_url() ); ?>"><img src="http://i.imgur.com/TgRuA.png" width="32" height="32" alt="Lessig" id="header-logo" /></a><!-- TODO: update avatar link-->
                     <div class="clear-both"></div>
                 </div><!--/.span2-->
                 <div class="span6">
