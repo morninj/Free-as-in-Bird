@@ -7,6 +7,10 @@
             </p>
         </footer>
     </div><!--/.container-->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/bootstrap-alert.js"></script>
+
 </body>
 </html>
 

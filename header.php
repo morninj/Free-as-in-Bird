@@ -68,11 +68,27 @@
     <!-- TODO: threaded comments? see twentyeleven theme -->
 
     <!-- Additional WordPress header output -->
+    <?php wp_enqueue_script("jquery"); ?>    
     <?php wp_head(); ?>
 
 </head>
 <body <?php body_class(); ?>>
+
+
     <div class="container">
+
+        <!-- Beta message -->
+        <div class="row" style="margin-top: 20px;">
+            <div class="span8" style="font-family: 'Helvetica Neue', Helvetica, sans-serif;">
+                <div class="alert alert-block alert-error" style="font-size: 16px;">
+                    <a class="close" data-dismiss="alert" href="#">&times;</a>
+                    <h4 class="alert-heading" style="font-size: 22px; margin-bottom: 10px;">Watch your step</h4>
+                    This is a dev site. It's not yet fit for human consumption.
+                </div>
+            </div>
+        </div>
+        <!-- /Beta message -->
+
         <header>
             <div class="row">
                 <div class="span2" id="header-logo-container">
