@@ -90,7 +90,7 @@
                     <ul>
                         <li><a href="<?php site_url(); ?>/blog/">Blog</a></li>
                         <li><a href="javascript:void(0);">Books</a></li>
-                        <li><a href="javascript:void(0);">News</a></li>
+                        <li><a href="<?php site_url(); ?>/topics/news/">News</a></li>
                         <li><a href="http://wiki.lessig.org/">Wiki</a></li>
                         <li><a href="javascript:void(0);">About</a></li>
                     </ul>
