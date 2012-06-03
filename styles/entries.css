@@ -54,5 +54,8 @@ img.alignleft {
 }
 
 div.entry-contents blockquote p {
+    color: #777;
+    font-size: 18px;
+    line-height: 29px;
     margin-bottom: 12px !important;
 }
