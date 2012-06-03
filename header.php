@@ -60,12 +60,9 @@
     <link href="<?php bloginfo('stylesheet_directory'); ?>/style.css" rel="stylesheet" type="text/css" />
 
     <!-- Fix HTML5 elements for noncompliant browsers -->
-    
     <!--[if lt IE 9]>
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
     <![endif]-->
-
-    <!-- TODO: threaded comments? see twentyeleven theme -->
 
     <!-- Additional WordPress header output -->
     <?php wp_enqueue_script("jquery"); ?>    
@@ -92,7 +89,7 @@
         <header>
             <div class="row">
                 <div class="span2" id="header-logo-container">
-                    <a href="<?php echo( site_url() ); ?>"><img src="http://i.imgur.com/TgRuA.png" width="32" height="32" alt="Lessig" id="header-logo" /></a><!-- TODO: update avatar link-->
+                    <a href="<?php echo( site_url() ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/lessig-avatar.png" width="32" height="32" alt="Lessig" id="header-logo" /></a><!-- TODO: update avatar link-->
                     <div class="clear-both"></div>
                 </div><!--/.span2-->
                 <div class="span6">
