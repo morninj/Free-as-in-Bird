@@ -1,0 +1,21 @@
+hr.footer-divider {
+    margin: 25px 0 10px 0;
+}
+
+footer {}
+
+    footer div#col1 {}
+
+        footer div#col1 span { color: #ccc; }
+
+    footer div#col2 {
+        text-align: right;
+    }
+
+    footer p.credits {
+        color: #777;
+        font-size: 0.7em;
+        font-style: italic;
+        margin: 15px 0 0 0;
+        text-align: center;
+    }

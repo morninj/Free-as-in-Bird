@@ -27,6 +27,9 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 /* Comments */
 @import url('styles/comments.css');
 
+/* Footer */
+@import url('styles/footer.css');
+
 body {
     background-color: #efefef;
     font-weight: 300;
@@ -41,7 +44,7 @@ div.container {
     background-color: #fff;
     border-radius: 3px;
     margin: 20px auto;
-    padding: 30px 50px;
+    padding: 30px 50px 15px 50px;
 }
 
 div.clear-both { clear: both; }
