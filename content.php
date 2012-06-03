@@ -14,6 +14,7 @@
                         <p class="entry-author">By <?php the_author_link(); ?></a></p>
                         <p class="entry-date"><?php the_time('F j, Y'); ?></p>
                         <p class="entry-comments"><?php 
+$num_comments =  get_comments_number();
 if ( $num_comments == 0 ) {
     $comments = __('No Comments');
 } elseif ( $num_comments > 1 ) {
