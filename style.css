@@ -28,6 +28,7 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 @import url('styles/comments.css');
 
 body {
+    background-color: #efefef;
     font-weight: 300;
 }/* TODO: add documentation about typekit:
 
@@ -36,5 +37,11 @@ body {
 3. LESS variables to adjust if not using typekit
 */
 
+div.container {
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 20px auto;
+    padding: 30px 50px;
+}
 
 div.clear-both { clear: both; }

@@ -78,12 +78,12 @@
     <div class="container">
 
         <!-- Beta message -->
-        <div class="row" style="margin-top: 20px;">
+        <div class="row">
             <div class="span8" style="font-family: 'Helvetica Neue', Helvetica, sans-serif;">
-                <div class="alert alert-block alert-error" style="font-size: 16px;">
+                <div class="alert alert-block alert-error" style="font-size: 16px; margin-top: 20px;">
                     <a class="close" data-dismiss="alert" href="#">&times;</a>
                     <h4 class="alert-heading" style="font-size: 22px; margin-bottom: 10px;">Watch your step</h4>
-                    This is a dev site. It's not yet fit for human consumption.
+                    This is a dev site. Some things might be broken or missing.
                 </div>
             </div>
         </div>
@@ -105,10 +105,10 @@
                 <div class="span8">
                     <ul>
                         <li><a href="<?php site_url(); ?>/blog/">Blog</a></li>
-                        <li><a href="javascript:void(0);">Books</a></li>
+                        <li><a href="<?php site_url(); ?>/books/">Books</a></li>
                         <li><a href="<?php site_url(); ?>/topics/news/">News</a></li>
                         <li><a href="http://wiki.lessig.org/">Wiki</a></li>
-                        <li><a href="javascript:void(0);">About</a></li>
+                        <li><a href="<?php site_url(); ?>/about/">About</a></li>
                     </ul>
                 </div><!--/.span8-->
             </div><!--/.row-->
