@@ -38,3 +38,17 @@ div.pagination a {
     border: 1px solid #efefef;
     margin-right: 20px;
 }
+
+img.thin-border {
+    border: 1px solid #efefef;
+    padding: 5px;
+}
+
+img.alignright {
+    float: right;
+    margin: 0 0 30px 30px;
+}
+img.alignleft {
+    float: left;
+    margin: 0 30px 30px 0;
+}

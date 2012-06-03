@@ -45,3 +45,8 @@ div.container {
 }
 
 div.clear-both { clear: both; }
+
+.pagination {
+    height: auto;
+    margin: 25px 0 0 0;
+}
