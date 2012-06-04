@@ -10,7 +10,7 @@
                         &nbsp;&middot;&nbsp;
                         <a href="<?php site_url(); ?>/books/">Books</a>
                         &nbsp;&middot;&nbsp;
-                        <a href="<?php site_url(); ?>/topic/news/">News</a>
+                        <a href="<?php site_url(); ?>/topics/news/">News</a>
                         &nbsp;&middot;&nbsp;
                         <a href="http://wiki.lessig.org/">Wiki</a>
                         &nbsp;&middot;&nbsp;
