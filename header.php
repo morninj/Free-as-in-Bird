@@ -104,7 +104,7 @@
                         <li><a href="<?php site_url(); ?>/blog/">Blog</a></li>
                         <li><a href="<?php site_url(); ?>/books/">Books</a></li>
                         <li><a href="<?php site_url(); ?>/topics/news/">News</a></li>
-                        <li><a href="http://wiki.lessig.org/">Wiki</a></li>
+                        <li><a href="http://wiki.lessig.org/" target="_blank">Wiki</a></li>
                         <li><a href="<?php site_url(); ?>/about/">About</a></li>
                     </ul>
                 </div><!--/.span8-->

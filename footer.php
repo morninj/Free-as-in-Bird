@@ -35,6 +35,7 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/bootstrap-tab.js"></script>
 
 </body>
 </html>
