@@ -1,0 +1,12 @@
+div.book-cover {
+    border: 1px solid #efefef;
+    float: left;
+    height: 250px;
+    margin: 0 21px 15px 0;
+    padding: 5px;
+    width: auto;
+}
+
+    div.row-last { margin-right: 0; }
+
+    div.book-cover:hover { border-color: #ccc; }

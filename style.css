@@ -30,6 +30,9 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 /* Footer */
 @import url('styles/footer.css');
 
+/* Books page */
+@import url('styles/books.css');
+
 body {
     background-color: #efefef;
     font-weight: 300;
