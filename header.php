@@ -101,7 +101,7 @@
                             <ul>
                                 <li><a class="nav-link" href="http://wiki.lessig.org/" target="_blank">Wiki</a></li>
                                 <li><a class="nav-link" href="<?php site_url(); ?>/about/">About</a></li>
-                                <li><a class="nav-link" href="<?php bloginfo('rss2_url'); ?>/about/">RSS</a></li>
+                                <li><a class="nav-link" href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
                             </ul>
                         </div></div><!--/#nav-right"-->
                     </div><!--/#nav-wrapper-->
