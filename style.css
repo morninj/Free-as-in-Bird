@@ -33,6 +33,9 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 /* Books page */
 @import url('styles/books.css');
 
+/* About page */
+@import url('styles/about.css');
+
 body {
     background: url('images/textured-bg.jpg') repeat;
     background-color: #efefef;

@@ -62,6 +62,10 @@
                     <?php } else { ?>
                     <div class="span12 entry-contents">
 			<?php
+
+                            // Disable auto <p> tags
+                            remove_filter ('the_content', 'wpautop');
+
                             // Display page content
                             the_content();
                         ?>

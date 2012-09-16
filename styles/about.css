@@ -1,0 +1,22 @@
+div#press-photos {}
+
+    div#press-photos div {
+        float: left;
+        margin: 0 10px 10px 0;
+        width: 162px;    
+    }
+
+        div#press-photos div a {
+            border: 1px solid #efefef;
+            display: block;
+        }
+
+        div#press-photos div a:hover {
+            border: 1px solid #ccc;
+        }
+
+            div#press-photos div a img {
+                height: 150px;
+                margin: 5px;
+                width: 150px;
+            }

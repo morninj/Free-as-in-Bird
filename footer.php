@@ -37,6 +37,15 @@
     <!-- Scripts -->
     <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/bootstrap-alert.js"></script>
     <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/jquery.color.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('.nav-link').mouseover(function() { $(this).animate({backgroundColor: '#fff'}, 100); });
+        $('.nav-link').mouseout(function() { $(this).animate({backgroundColor: 'transparent'}, 200); });
+    });
+    </script>
 
 </body>
 </html>

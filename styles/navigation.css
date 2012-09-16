@@ -16,15 +16,22 @@ nav#main-nav {
         }
 
             nav#main-nav ul li a {
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
                 color: #666;
                 display: inline-block;
                 font-weight: 300;
                 font-size: 16px;
                 letter-spacing: 2px;
+                margin: 8px 2%;
+                padding: 2px 3%;
                 text-transform: uppercase;
-                padding: 10px 5%;
             }
 
+            nav#main-nav ul li a:hover {
+                text-decoration: none;
+            }
 
 #nav-left {
     vertical-align: top;

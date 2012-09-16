@@ -65,7 +65,8 @@
     <![endif]-->
 
     <!-- Additional WordPress header output -->
-    <?php wp_enqueue_script("jquery"); ?>    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
     <?php wp_head(); ?>
 
 </head>
@@ -81,9 +82,9 @@
                     <div id="nav-wrapper" style="width: 100%;">
                         <div id="nav-left"><div class="nav-cnt">
                             <ul>
-                                <li><a href="<?php site_url(); ?>/blog/">Blog</a></li>
-                                <li><a href="<?php site_url(); ?>/books/">Books</a></li>
-                                <li><a href="<?php site_url(); ?>/topics/news/">News</a></li>
+                                <li><a class="nav-link" href="<?php site_url(); ?>/blog/">Blog</a></li>
+                                <li><a class="nav-link" href="<?php site_url(); ?>/books/">Books</a></li>
+                                <li><a class="nav-link" href="<?php site_url(); ?>/topics/news/">News</a></li>
                             </ul>
                         </div></div><!--/#nav-left"--><div id="nav-fixed">
                             <h1><a href="/">Lessig</a></h1>
@@ -98,9 +99,9 @@
                             </p>
                         </div><div id="nav-right"><div class="nav-cnt">
                             <ul>
-                                <li><a href="http://wiki.lessig.org/" target="_blank">Wiki</a></li>
-                                <li><a href="<?php site_url(); ?>/about/">About</a></li>
-                                <li><a href="<?php bloginfo('rss2_url'); ?>/about/">RSS</a></li>
+                                <li><a class="nav-link" href="http://wiki.lessig.org/" target="_blank">Wiki</a></li>
+                                <li><a class="nav-link" href="<?php site_url(); ?>/about/">About</a></li>
+                                <li><a class="nav-link" href="<?php bloginfo('rss2_url'); ?>/about/">RSS</a></li>
                             </ul>
                         </div></div><!--/#nav-right"-->
                     </div><!--/#nav-wrapper-->
