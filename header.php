@@ -74,40 +74,37 @@
 
     <div class="container">
 
-        <!-- Beta message -->
-        <div class="row">
-            <div class="span8" style="font-family: 'Helvetica Neue', Helvetica, sans-serif;">
-                <div class="alert alert-block alert-error" style="font-size: 16px; margin-top: 20px;">
-                    <a class="close" data-dismiss="alert" href="#">&times;</a>
-                    <h4 class="alert-heading" style="font-size: 22px; margin-bottom: 10px;">Watch your step</h4>
-                    This is a dev site. Some things might be broken or missing.
-                </div>
-            </div>
-        </div>
-        <!-- /Beta message -->
 
-        <header>
-            <div class="row">
-                <div class="span2" id="header-logo-container">
-                    <a href="<?php echo( site_url() ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/lessig-avatar.png" width="32" height="32" alt="Lessig" id="header-logo" /></a><!-- TODO: update avatar link-->
-                    <div class="clear-both"></div>
-                </div><!--/.span2-->
-                <div class="span6">
-                    <h1><a href="<?php echo( site_url() ); ?>"><?php echo( get_bloginfo( 'name' ) ); ?></a></h1>
-                </div><!--/.span6-->
-            </div><!--/.row-->
-        </header>
         <nav id="main-nav">
             <div class="row">
                 <div class="span8">
-                    <ul>
-                        <li><a href="<?php site_url(); ?>/blog/">Blog</a></li>
-                        <li><a href="<?php site_url(); ?>/books/">Books</a></li>
-                        <li><a href="<?php site_url(); ?>/topics/news/">News</a></li>
-                        <li><a href="http://wiki.lessig.org/" target="_blank">Wiki</a></li>
-                        <li><a href="<?php site_url(); ?>/about/">About</a></li>
-                    </ul>
-                </div><!--/.span8-->
-            </div><!--/.row-->
+                    <div id="nav-wrapper" style="width: 100%;">
+                        <div id="nav-left"><div class="nav-cnt">
+                            <ul>
+                                <li><a href="<?php site_url(); ?>/blog/">Blog</a></li>
+                                <li><a href="<?php site_url(); ?>/books/">Books</a></li>
+                                <li><a href="<?php site_url(); ?>/topics/news/">News</a></li>
+                            </ul>
+                        </div></div><!--/#nav-left"--><div id="nav-fixed">
+                            <h1><a href="/">Lessig</a></h1>
+                            <p id="header-icons">
+                                <a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/avatar.png" alt="Lessig" /></a>
+                                <a href="https://www.facebook.com/pages/Lawrence-Lessig/105623262805744"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/facebook.png" alt="Facebook" /></a>
+                                <a href="http://www.twitter.com/lessig"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/twitter.png" alt="Twitter" /></a>
+                                <a href="http://www.youtube.com/user/lessig"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/youtube.png" alt="YouTube" /></a>
+                                <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/feed.png" alt="" /></a>
+                                <a href="mailto:lessig_from_web@pobox.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/email.png" alt="" id="last-icon" /></a>
+
+                            </p>
+                        </div><div id="nav-right"><div class="nav-cnt">
+                            <ul>
+                                <li><a href="http://wiki.lessig.org/" target="_blank">Wiki</a></li>
+                                <li><a href="<?php site_url(); ?>/about/">About</a></li>
+                                <li><a href="<?php bloginfo('rss2_url'); ?>/about/">RSS</a></li>
+                            </ul>
+                        </div></div><!--/#nav-right"-->
+                    </div><!--/#nav-wrapper-->
+                </div><!--/.span12-->
+            </div><!--/.row-fluid-->
         </nav><!--/#main-nav-->
         <section>

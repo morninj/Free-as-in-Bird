@@ -1,8 +1,10 @@
-nav#main-nav {}
+nav#main-nav {
+    margin: 30px 0 40px 0;
+}
 
     nav#main-nav ul {
-        border-bottom: 1px solid #efefef;
-        border-top: 1px solid #efefef;
+        border-bottom: 7px solid #e3e3e3;
+        border-top: 7px solid #e3e3e3;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -14,9 +16,81 @@ nav#main-nav {}
         }
 
             nav#main-nav ul li a {
+                color: #666;
                 display: inline-block;
-                font-weight: 400;
+                font-weight: 300;
+                font-size: 16px;
                 letter-spacing: 2px;
                 text-transform: uppercase;
-                padding: 6px 5%;
+                padding: 10px 5%;
             }
+
+
+#nav-left {
+    vertical-align: top;
+    margin-right: -100px;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    z-index: 0;
+}
+
+#nav-left .nav-cnt {
+    padding-right: 100px;
+}
+
+#nav-fixed {
+    vertical-align: top;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+#nav-right {
+    vertical-align: top;
+    margin-left: -100px;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+#nav-right .nav-cnt {
+    padding-left: 100px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 100%;
+    margin: -7px 0 0 0;
+    padding: 0;
+}
+
+    h1 a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    h1 a:hover {
+        color: #444;
+        text-decoration: none;
+    }
+
+p#header-icons {
+    margin: 0;
+    padding: 0;
+}
+
+    p#header-icons img {
+        border: none;
+        height: 16px;
+        margin-right: 5px;
+        width: 16px;
+    }
+
+        p#header-icons img #last-icon { margin: none; }

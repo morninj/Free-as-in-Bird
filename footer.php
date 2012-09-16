@@ -20,9 +20,10 @@
                 </div><!--/.span4-->
                 <div class="span3" id="col2">
                     <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/feed.png" width="16" height="16" alt="Feed" /></a>
-                    <script type="text/javascript">document.write('<a href="mail' + 'to:le' + 'ssig' + '@' + 'pobo' + 'x' + '.c' + 'om">');</script><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/email.png" width="16" height="16" alt="email" /></a>
+                    <script type="text/javascript">document.write('<a href="mail' + 'to:le' + 'ssig_from' + '_web' + '@' + 'pobo' + 'x' + '.c' + 'om">');</script><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/email.png" width="16" height="16" alt="email" /></a>
                     <a href="https://www.facebook.com/pages/Lawrence-Lessig/105623262805744"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/facebook.png" width="16" height="16" alt="Facebook" /></a>
                     <a href="https://twitter.com/lessig"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/twitter.png" width="16" height="16" alt="Twitter" /></a>
+                    <a href="http://www.youtube.com/user/lessig"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/social-media-icons/youtube.png" alt="YouTube" /></a>
                     <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
                 </div><!--/.span3-->
             </div><!--/row-->

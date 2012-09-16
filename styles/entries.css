@@ -1,29 +1,29 @@
-article.entry {
-    margin-bottom: 20px;
+article {
+    background-color: #fff;
+    border-top: 4px solid #00c;
+    -webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 1);
+    box-shadow:         0px 0px 10px rgba(50, 50, 50, 1);
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
-div.entry-meta {
+p.entry-subheading {
     color: #999;
+    font-style: italic;
+    margin: -10px 0 20px 0;
 }
 
-    div.entry-meta h3 {
-        font-weight: 400;
-        font-size: 13px;
-        letter-spacing: 1px;
-        margin-top: 25px;
-        text-transform: uppercase;
-    }
-
-    div.entry-meta p.entry-author {
-        margin-bottom: 0;
-    }
+p.entry-meta {
+    color: #999;
+    margin: 25px 0 0 0;
+}
 
 h2.entry-title {
-    border-bottom: 2px dotted #efefef;
     font-size: 28px;
     font-weight: 400;
-    margin-bottom: 15px;
-    padding: 10px 0 5px 0;
+    line-height: 130%;
+    margin: 0 0 15px 0;
 }
 
 h2.entry-title a,
