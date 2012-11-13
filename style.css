@@ -37,7 +37,7 @@ License URI: https://creativecommons.org/licenses/by/3.0/us/
 @import url('styles/about.css');
 
 body {
-    background: url('images/textured-bg.jpg') repeat;
+    background: url('images/paper-bg.jpg') repeat;
     background-color: #efefef;
     font-weight: 300;
 }
