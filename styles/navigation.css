@@ -3,8 +3,8 @@ nav#main-nav {
 }
 
     nav#main-nav ul {
-        border-bottom: 7px solid #e3e3e3;
-        border-top: 7px solid #e3e3e3;
+        border-bottom: 4px solid #00c;
+        border-top: 4px solid #00c;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -19,7 +19,7 @@ nav#main-nav {
                 border-radius: 5px;
                 -webkit-border-radius: 5px;
                 -moz-border-radius: 5px;
-                color: #666;
+                color: #444;
                 display: inline-block;
                 font-weight: 300;
                 font-size: 16px;
