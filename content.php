@@ -24,11 +24,11 @@
                             $syndication_permalink = get_post_meta(get_the_ID(), 'syndication_permalink', true);
                             if ($syndication_source == 'http://lessig.tumblr.com/') {
                                 // Display a link to the original Tumblr post
-                                echo('&nbsp;&middot;&nbsp;Reblogged from <a href="' . $syndication_permalink . '">Tumblr</a>');
+                                echo('&nbsp;&middot;&nbsp;Reblogged from &nbsp;<a href="' . $syndication_permalink . '"><img src="' . get_bloginfo('stylesheet_directory') . '/images/social-media-icons/tumblr.gif" alt="Tumblr" name="Tumblr" style="margin-bottom: 3px;"/></a>');
                             }
                             elseif ($syndication_source == 'http://huffingtonpost.com/author/index.php?author=lawrence-lessig') {
                                 // Display a link to the original HuffPo post
-                                echo('&nbsp;&middot;&nbsp;Reblogged from <a href="' . $syndication_permalink . '">The Huffington Post</a>');
+                                echo('&nbsp;&middot;&nbsp;Reblogged from &nbsp;<a href="' . $syndication_permalink . '"><img src="' . get_bloginfo('stylesheet_directory') . '/images/social-media-icons/huffpo.gif" alt="Huffington Post" name="Huffington Post" style="margin-bottom: 3px;"/></a>');
                             }
                             ?>
                             <!-- ************************** -->
