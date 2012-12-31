@@ -1,7 +1,7 @@
 Free as in Bird
 ===============
 
-A lightweight, responsive, readable WordPress theme.
+A lightweight, responsive, readable WordPress theme. This theme currently powers lessig.org. With a few modifications, it will work on any WordPress site.
 
 Installation
 ------------
