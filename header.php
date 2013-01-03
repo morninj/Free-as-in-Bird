@@ -73,7 +73,7 @@
                     <div id="nav-wrapper" style="width: 100%;">
                         <div id="nav-left"><div class="nav-cnt">
                             <ul>
-                                <li><a class="nav-link" href="<?php site_url(); ?>/blog/">Blog</a></li>
+                                <li><a class="nav-link" href="<?php site_url(); ?>/">Blog</a></li>
                                 <li><a class="nav-link" href="<?php site_url(); ?>/books/">Books</a></li>
                                 <li><a class="nav-link" href="<?php site_url(); ?>/topics/news/">News</a></li>
                             </ul>

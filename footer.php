@@ -6,7 +6,9 @@
                     <p>
                         Lessig
                         &nbsp;<span>//&nbsp;
-                        <a href="<?php site_url(); ?>/blog/">Blog</a>
+                        <a href="<?php site_url(); ?>/">Blog</a>
+                        &nbsp;&middot;&nbsp;
+                        <a href="<?php site_url(); ?>/blog/">Archives</a>
                         &nbsp;&middot;&nbsp;
                         <a href="<?php site_url(); ?>/books/">Books</a>
                         &nbsp;&middot;&nbsp;
