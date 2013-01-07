@@ -55,6 +55,11 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
     <![endif]-->
 
+    <!-- Favicon -->
+    <link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); 
+    ?>/images/favicon.png" type="image/png">
+
     <!-- Additional WordPress header output -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
