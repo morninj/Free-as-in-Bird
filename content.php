@@ -20,8 +20,16 @@
                             <?php
                             // If the post is syndicated from another source,
                             // add a link to the original.
+                            // This is a hack to identify posts from FeedWordPress and WP-O-Matic
+                            // XXX
                             $syndication_source = get_post_meta(get_the_ID(), 'syndication_source_uri', true);
                             $syndication_permalink = get_post_meta(get_the_ID(), 'syndication_permalink', true);
+                            $categories = get_the_category(get_the_ID());
+                            foreach ($categories as $category) {
+                                if ($category->name == "Tumblr") { $syndication_source = 'http://lessig.tumblr.com/'; $syndication_permalink = 'http://lessig.tumblr.com/';  }
+                                if ($category->name == "HuffPo") { $syndication_source = 'http://huffingtonpost.com/author/index.php?author=lawrence-lessig'; $syndication_permalink = 'http://huffingtonpost.com/author/index.php?author=lawrence-lessig';  }
+                            }
+
                             if ($syndication_source == 'http://lessig.tumblr.com/') {
                                 // Display a link to the original Tumblr post
                                 echo('&nbsp;&middot;&nbsp;Reblogged from &nbsp;<a href="' . $syndication_permalink . '"><img src="' . get_bloginfo('stylesheet_directory') . '/images/social-media-icons/tumblr.gif" alt="Tumblr" name="Tumblr" style="margin-bottom: 3px;"/></a>');
