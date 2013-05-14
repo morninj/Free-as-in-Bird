@@ -30,6 +30,7 @@ nav#main-nav {
             }
 
             nav#main-nav ul li a:hover {
+		background-color: #fff;
                 text-decoration: none;
             }
 
