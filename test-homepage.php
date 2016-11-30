@@ -50,43 +50,6 @@ campaign, <a href="http://lessig2016.us">click here</a>.</p>
 
 <?php get_header(); ?>
 
-<?php
-
-if (strpos($_SERVER['REQUEST_URI'], '/1') !== false || strpos($_SERVER['REQUEST_URI'], '/2') !== false) {
-	// Show normal page if this is a blog archive index page
-	if ( have_posts() ) :
-	    while ( have_posts() ) : the_post();
-		get_template_part( 'content', get_post_format() );
-	    endwhile;
-	?>
-	<div class="pagination">
-	    <div class="alignleft"><?php next_posts_link('&laquo; Older posts') ?></div>
-	    <div class="alignright"><?php previous_posts_link('Newer posts &raquo;') ?></div>
-	    <div class="clear-both"></div>
-	</div>
-	<?php
-	else :
-	?>
-	    <h2 class="entry-title">Nothing found</h2>
-	    <p>Sorry, but we couldn't find anything that matches your request.</p>
-	<?php
-	endif;
-} else {
-	// Otherwise, redirect to the new index page
-
-?>
-
-<script>
-
-// Don't redirect if this is an old disclosure page or archived post
-var url = window.location.href;
-if (url.indexOf('old-disclosure') !== -1) {
-	// Do nothing
-} else {
-	window.location = 'http://lessig.org/about/';
-}
-</script>
-
 
 <article id="entry 23239582006" class="post-23239582006 page type-page status-publish hentry">
 
@@ -108,12 +71,6 @@ campaign, <a href="http://lessig2016.us">click here</a>.</p>
                                     </div><!--/.row-fluid-->
 
             </article>
-
-<?php
-
-} 
-
-?>
 
 
 
